@@ -26,7 +26,6 @@ services:
           dockerfile: Dockerfile
       image: system-api
       restart: unless-stopped
-      command: ['bash', '-c', 'composer install && php artisan migrate'] # It can be removed if there is no need for migrations or composer install
       working_dir: /var/www/html/
       mem_limit: 200M # It can be removed if there is no need memory limit
       depends_on:
