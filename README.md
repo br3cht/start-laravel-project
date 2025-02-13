@@ -1,10 +1,3 @@
-# Nome do Projeto
- Sale-system
-## Tecnologias Utilizadas
-- **PHP 8.3**
-- **Laravel 11**
-- **Livewire 3**
-- **Horizon para Controle de Filas**
 
 ## Pré-requisitos
 
